@@ -1,0 +1,21 @@
+{
+    "widgets": [],
+    "menus": {
+        "locations": [],
+        "links": []
+    },
+    "pages": [
+        {
+            "title": "Stylish Portfolio - Start Bootstrap Theme",
+            "slug": "front-page",
+            "template": "front-page.php",
+            "file_name": "index.html"
+        }
+    ],
+    "forms": [],
+    "forms_map": {
+        "front-page": []
+    },
+    "posts_per_page": 0,
+    "taxonomies": []
+}
