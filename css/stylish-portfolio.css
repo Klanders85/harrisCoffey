@@ -42,7 +42,7 @@ p {
 }
 
 .text-vertical-center h3 {
-    background-color: #0D4F8B;
+    background-color: #314b60;
     color: #89cff0;
     padding: 10px;
     display: inline-block;
@@ -295,7 +295,7 @@ video {
 }
 
 #inTheNews {
-    background-color: darkblue;
+    background-color: #314b60;
     color: white;
 }
 
