@@ -1,9 +1,9 @@
 <?php
-			/*
-				Template Name: html2wp-front-page
-			*/
+/*
+	Template Name: html2wp-front-page
+*/
 
-			?>
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,22 +48,13 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="<?php  bloginfo('template_url');  ?>/#top" onclick='$("#menu-close").click();'>Start Bootstrap</a>
+                <a href="/">Home</a>
             </li>
             <li>
-                <a href="<?php  bloginfo('template_url');  ?>/#top" onclick='$("#menu-close").click();'>Home</a>
+                <a href="/in-the-news">In The News</a>
             </li>
             <li>
-                <a href="<?php  bloginfo('template_url');  ?>/#about" onclick='$("#menu-close").click();'>About</a>
-            </li>
-            <li>
-                <a href="<?php  bloginfo('template_url');  ?>/#services" onclick='$("#menu-close").click();'>Services</a>
-            </li>
-            <li>
-                <a href="<?php  bloginfo('template_url');  ?>/#portfolio" onclick='$("#menu-close").click();'>Portfolio</a>
-            </li>
-            <li>
-                <a href="<?php  bloginfo('template_url');  ?>/#contact" onclick='$("#menu-close").click();'>Contact</a>
+                <a href="/practices">Practices</a>
             </li>
         </ul>
     </nav>

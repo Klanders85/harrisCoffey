@@ -271,6 +271,7 @@ footer {
 }
 
 /* Author Styles */
+/* Home Page */
 video { 
     position: fixed;
     top: 50%;
@@ -316,4 +317,21 @@ video {
 }
 #shotCallers img {
     width: 100%;
+}
+
+/* In The News */
+#in-the-news {
+    background-color: grey;
+}
+
+#in-the-news h1 {
+    font-family: Time New Roman;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.content-section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 30px;
 }
