@@ -42,25 +42,26 @@
 
 <body>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/in-the-news">In The News</a>
-            </li>
-            <li>
-                <a href="/practices">Practices</a>
-            </li>
-        </ul>
-    </nav>
-
     <!-- Header -->
     <header id="top" class="header">
+        <!-- Navigation -->
+        <a id="menu-toggle" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                <li class="sidebar-brand">
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/in-the-news">In The News</a>
+                </li>
+                <li>
+                    <a href="/practices">Practices</a>
+                </li>
+            </ul>
+        </nav>  
+    </header>
+    <div id="videoBackground">
         <video autoplay playsinline muted loop>
               <source src="<?php  bloginfo('template_url'); ?>/img/droneVideo.mp4" type="video/mp4">
               <source src="<?php  bloginfo('template_url'); ?>/img/droneVideo.webm" type="video/ogg">
@@ -71,7 +72,7 @@
             <h3>Oklahoma&rsquo;s Trusted &amp; Proven Legal Partner</h3>
             <br>
         </div>
-    </header>
+    </div>
 
     <!-- About -->
     <section id="about" class="about">
