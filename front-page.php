@@ -44,6 +44,12 @@
 
     <!-- Header -->
     <header id="top" class="header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Harris &amp; Coffey, PLLC.</h3>
+                <h4>(405) 123-4567</h4>
+            </div>
+        </div>
         <!-- Navigation -->
         <a id="menu-toggle" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
         <nav id="sidebar-wrapper">
@@ -59,9 +65,9 @@
                     <a href="/practices">Practices</a>
                 </li>
             </ul>
-        </nav>  
+        </nav>
     </header>
-    
+
     <div id="videoBackground">
         <video autoplay playsinline muted loop>
               <source src="<?php  bloginfo('template_url'); ?>/img/droneVideo.mp4" type="video/mp4">
