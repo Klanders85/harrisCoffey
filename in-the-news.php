@@ -40,21 +40,31 @@
 </head>
 <body id="in-the-news">
 	<!-- Navigation -->
-    <a id="menu-toggle" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/in-the-news">In The News</a>
-            </li>
-            <li>
-                <a href="/practices">Practices</a>
-            </li>
-        </ul>
-    </nav>
+    <!-- Header -->
+    <header id="top" class="itn-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Harris &amp; Coffey, PLLC.</h3>
+                <h4>(405) 123-4567</h4>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <a id="menu-toggle" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                <li class="sidebar-brand">
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/in-the-news">In The News</a>
+                </li>
+                <li>
+                    <a href="/practices">Practices</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="container">
     	<div class="row">

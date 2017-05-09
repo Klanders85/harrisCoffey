@@ -183,6 +183,11 @@ hr.small {
     padding: 20px;
 }
 
+.itn-header{
+    background-color: #314b60;
+    color: white;
+}
+
 .header h3 {
     text-decoration: underline;
 }
