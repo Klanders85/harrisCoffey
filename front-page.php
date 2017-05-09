@@ -61,6 +61,7 @@
             </ul>
         </nav>  
     </header>
+    
     <div id="videoBackground">
         <video autoplay playsinline muted loop>
               <source src="<?php  bloginfo('template_url'); ?>/img/droneVideo.mp4" type="video/mp4">
