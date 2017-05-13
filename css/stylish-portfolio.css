@@ -326,8 +326,11 @@ video {
     text-align: center;
     position: absolute;
     width: 100%;
+    top: 5%;
     left: 0;
     color: white;
+    font-size: 4.5rem;
+
 }
 #shotCallers img {
     width: 100%;

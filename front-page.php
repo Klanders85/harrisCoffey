@@ -59,10 +59,10 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/in-the-news">In The News</a>
+                    <a href="harrisCoffey/in-the-news">In The News</a>
                 </li>
                 <li>
-                    <a href="/practices">Practices</a>
+                    <a href="harrisCoffey/practices">Practices</a>
                 </li>
             </ul>
         </nav>
