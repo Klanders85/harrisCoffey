@@ -1,6 +1,6 @@
 <?php
 /*
-	Template Name: in-the-news
+	Template Name: practices
 */
 
 ?>
@@ -38,7 +38,7 @@
 <?php  wp_head();  ?>
 </head>
 </head>
-<body id="in-the-news">
+<body id="practices">
 	<!-- Navigation -->
     <!-- Header -->
     <header id="top" class="itn-header">
@@ -54,9 +54,9 @@
             <ul class="sidebar-nav">
                 <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
                 <li class="sidebar-brand">
-                    <a href="<?php  bloginfo('template_url');  ?>/">Home</a>
+                    <a href="<?php  bloginfo('template_url');  ?>/harrisCoffey">Home</a>
                 </li>
-                <li>
+                 <li>
                     <a href="<?php  bloginfo('template_url');  ?>/in-the-news">In The News</a>
                 </li>
                 <li>
@@ -66,49 +66,7 @@
         </nav>
     </header>
 
-    <div class="container">
-    	<div class="row">
-    		<div class="col-sm-12 text-center">
-    			<h1>IN THE NEWS</h1>
-    		</div>
-    	</div>
-    	<div class="content-section row text-center">
-    		<div class="col-sm-12 col-md-6">
-    			<img src="http://placehold.it/300x300" alt="" />
-    		</div>
-    		<div class="content-section col-sm-12 col-md-6">
-	    		<div class="col-sm-12 text-center">
-	    			<h3>Google It!</h3>
-	    		</div>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a rem inventore magnam odio dolorem et accusamus cum earum nisi, iure obcaecati, reiciendis odit eligendi dolorum animi asperiores praesentium adipisci.</p>
-    			<a href="#" class="btn btn-primary">Read More</a>
-    		</div>
-    	</div>
-		<div class="content-section row text-center">
-			<div class="col-sm-12 col-md-6">
-				<div class="col-sm-12 text-center">
-	    			<h3>Holy Cow!</h3>
-	    		</div>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a rem inventore magnam odio dolorem et accusamus cum earum nisi, iure obcaecati, reiciendis odit eligendi dolorum animi asperiores praesentium adipisci.</p>
-    			<a href="#" class="btn btn-primary">Read More</a>
-    		</div>
-    		<div class="content-section col-sm-12 col-md-6">
-    			<img src="http://placehold.it/300x300" alt="" />
-    		</div>
-    	</div>
-    	<div class="content-section row text-center">
-    		<div class="col-sm-12 col-md-6">
-    			<img src="http://placehold.it/300x300" alt="" />
-    		</div>
-    		<div class="col-sm-12 col-md-6">
-	    		<div class="col-sm-12 text-center">
-	    			<h3>Roe vs Wade</h3>
-	    		</div>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a rem inventore magnam odio dolorem et accusamus cum earum nisi, iure obcaecati, reiciendis odit eligendi dolorum animi asperiores praesentium adipisci.</p>
-    			<a href="#" class="btn btn-primary">Read More</a>
-    		</div>
-    	</div>
-    </div>
+    
 
     <!-- jQuery -->
     <script src="<?php  bloginfo('template_url');  ?>/js/jquery.js"></script>

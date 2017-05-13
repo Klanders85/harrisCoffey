@@ -305,7 +305,7 @@ video {
     color: #89cff0;
 }
 
-#practices {
+#practices header {
     background-color: #89cff0;
 }
 
@@ -342,13 +342,27 @@ video {
 }
 
 #in-the-news h1 {
+    letter-spacing: 2px;
+}
+#in-the-news .content-section a.btn {
+    border-radius: 50px;
+    margin: 5% 0;
+    padding: 10px 60px;
+    font-size: 18px;
+}
+
+#in-the-news h1 {
     font-family: Time New Roman;
     color: white;
     margin-bottom: 5%;
 }
-
 .content-section {
     background-color: white;
     margin-bottom: 20px;
     padding: 30px;
+}
+
+/*overly specific selector*/
+html[lang="en"]{
+    margin-top: 0 !important;
 }

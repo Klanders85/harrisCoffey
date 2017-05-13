@@ -56,13 +56,13 @@
             <ul class="sidebar-nav">
                 <a id="menu-close" href="<?php  bloginfo('template_url');  ?>/#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
                 <li class="sidebar-brand">
-                    <a href="/">Home</a>
+                    <a href="/harrisCoffey/">Home</a>
+                </li>
+               <li>
+                    <a href="<?php  bloginfo('template_url');  ?>/in-the-news">In The News</a>
                 </li>
                 <li>
-                    <a href="harrisCoffey/in-the-news">In The News</a>
-                </li>
-                <li>
-                    <a href="harrisCoffey/practices">Practices</a>
+                    <a href="<?php  bloginfo('template_url');  ?>/practices">Practices</a>
                 </li>
             </ul>
         </nav>
