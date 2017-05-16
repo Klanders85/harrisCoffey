@@ -87,7 +87,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Trusted Partners</h2>
-                    <p class="lead">As proven and accomplished trial attorneys, Harris & Coffey take a relationship-driven approach to assure our Clients receive the best legal counsel and the best result possible.  Whether it is a settlement or trial, they do whatever it takes in the best interest of their clients</p>
+                    <p class="lead"><?php echo the_field('value_proposition_text'); ?></p>
                 </div>
             </div>
             <!-- /.row -->
@@ -104,29 +104,26 @@
                     <h2>Practice Areas</h2>
                     <hr class="small">
                     <div class="row">
-                        <p class="lead"> Harris &amp; Coffey practices in the area of nursing home abuse and negligence, DHS negligence, group-home and intermediate-care-facility negligence, medical malpractice and hospital negligence, bad-faith insurance claims, and automobile and trucking negligence cases.</p>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <img src="<?php  bloginfo('template_url'); ?>/img/Medical.png" alt="">
-                                <h4>
-                                    <strong>Nursing Home Abuse &amp; Medical Malpractice</strong>
-                                </h4>
+                        <p class="lead"><?php echo the_field('practice_copy'); ?></p>
+
+                            <!-- check if the repeater field has rows of data -->
+                            <?php  if( have_rows('practice_area') ): ?>
+                            <!-- loop through the rows of data -->
+                            <?php  while ( have_rows('practice_area') ) : the_row(); ?>        
+                                    <!-- display a sub field value -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="service-item">
+                                    <img src="<?php echo the_sub_field('practice_image'); ?>" alt="">
+                                    <h4>
+                                        <strong><?php echo the_sub_field('practice_type_name'); ?></strong>
+                                    </h4>
+                                </div>
                             </div>
-                        </div>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <img src="<?php  bloginfo('template_url'); ?>/img/Insurance.png" alt="">
-                                <h4>
-                                    <strong>Insurance Claims</strong>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <img src="<?php  bloginfo('template_url'); ?>/img/Trucking.png" alt="">
-                                <h4>
-                                    <strong>Car &amp; Truck Accidents</strong>
-                                </h4>
+                                
                             </div>
                         </div>
                     </div>
@@ -144,7 +141,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>In The News</h2>
-                    <p class="lead">Harris & Coffey have a track record of proven success. For more than 50-years collectively, they have won multi-million dollar cases time after time. We invite you to <a href="#">learn more and read about</a> some of our recent cases won.</p>
+                    <p class="lead"><?php echo the_field('in_the_news_copy'); ?></p>
                 </div>
             </div>
             <!-- /.row -->

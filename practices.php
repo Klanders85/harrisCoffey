@@ -65,6 +65,20 @@
             </ul>
         </nav>
     </header>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h1>PRACTICES</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                
+            </div>
+        </div>
+    </div>
 
     
 
