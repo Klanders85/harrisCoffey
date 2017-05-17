@@ -154,25 +154,13 @@
         <img src="<?php  bloginfo('template_url'); ?>/img/shotCallers.jpg" alt="" />
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12">
                     <h3>Paul Harris</h3>
                     <p>Paul Harris started practicing law in 1997 and in 2002 formed a private law firm with Kevin Coffey. The private law firm was created for the sole purpose of representing wronged and injured Oklahomans and their families. Paul is a proven and accomplished trial attorney. Having successfully tried cases and won multi-million-dollar jury verdicts for his Clients. Ready and willing take his clients&rsquo; cases to trial for resolution if prudent. Unless an attorney has extensive experience trying cases and consistently winning large jury verdicts, it&rsquo;s very unlikely that case will settle for its maximum value. Because of their proven track-record, Harris works to effectively settle cases always in the best interest of their clients.</p>
                     <hr />
-                    <h4>Education</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 col-md-6">
+
                     <h3>Kevin Coffey</h3>
                     <p>Kevin Coffey started practicing law in 1997 and in 2002 formed a private law firm with Paul Harris. The private law firm was created for the sole purpose of representing wronged and injured Oklahomans and their families. Kevin is a proven and accomplished trial attorney. Having successfully tried cases and won multi-million-dollar jury verdicts for his Clients. Ready and willing take his clients&rsquo; cases to trial for resolution if prudent. Unless an attorney has extensive experience trying cases and consistently winning large jury verdicts, it&rsquo;s very unlikely that case will settle for its maximum value</p>
-                    <hr />
-                    <h4>Education</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -181,12 +169,7 @@
 
     <!-- Map -->
     <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br>
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        
+        <iframe width="100%" height="600" src="https://www.maps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;coord=35.471801,-97.5216567&amp;q=435%20N%20Walker%20Ave%20%23202%20%09%09Oklahoma%20City%2C%20OK%2073102+(Harris%20%26%20Coffey%2C%20LLC)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/fr/mesurer-distance-surface-google-maps.html">Mesurer distance avec Google Maps</a></iframe><br />
     </section>
 
     <!-- Footer -->
@@ -195,13 +178,10 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Harris &amp; Coffey</strong></h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <p>435 N Walker Ave #202  Oklahoma City, OK 73102</p>
                     <ul class="list-unstyled">
-                        <li>
-<i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li>
-<i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
+                        <li><i class="fa fa-phone fa-fw"></i> (405)606-7444</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:inquiry@harrisandcoffey.com">inquiry@harrisandcoffey.com</a></li>
                     </ul>
                     <br>
                     <ul class="list-inline">
