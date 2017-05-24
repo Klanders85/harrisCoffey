@@ -306,11 +306,19 @@ video {
 }
 
 #practices header {
-    background-color: #89cff0;
+    background-color: #75a4d1;
 }
 
 #practices h1 {
     color: #314b60;
+}
+
+#practices img {
+    width: 100%;
+}
+
+#practices .practice-bgColor {
+    background-color: #75a4d1;
 }
 
 #inTheNews {

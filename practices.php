@@ -73,14 +73,66 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">           
-            </div>
-            <div class="col-sm-6">
-                Text
-            </div>
-        </div>
+    <!-- custom field here // section1 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('practices_section1') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('practices_section1') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section practice-bgColor">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+
+
+    <!-- custom field here // section2 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('practices_section2') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('practices_section2') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section practice-bgColor">
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+
+    <!-- custom field here // section1 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('practices_section3') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('practices_section3') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section practice-bgColor">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
     </div>
 
     
