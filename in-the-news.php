@@ -72,42 +72,71 @@
     			<h1>IN THE NEWS</h1>
     		</div>
     	</div>
-    	<div class="content-section row text-center">
-    		<div class="col-sm-12 col-md-6">
-    			<img src="http://placehold.it/300x300" alt="" />
-    		</div>
-    		<div class="content-section col-sm-12 col-md-6">
-	    		<div class="col-sm-12 text-center">
-	    			<h3>Google It!</h3>
-	    		</div>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a rem inventore magnam odio dolorem et accusamus cum earum nisi, iure obcaecati, reiciendis odit eligendi dolorum animi asperiores praesentium adipisci.</p>
-    			<a href="#" class="btn btn-primary">Read More</a>
-    		</div>
-    	</div>
-		<div class="content-section row text-center">
-			<div class="col-sm-12 col-md-6">
-				<div class="col-sm-12 text-center">
-	    			<h3>Holy Cow!</h3>
-	    		</div>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a rem inventore magnam odio dolorem et accusamus cum earum nisi, iure obcaecati, reiciendis odit eligendi dolorum animi asperiores praesentium adipisci.</p>
-    			<a href="#" class="btn btn-primary">Read More</a>
-    		</div>
-    		<div class="content-section col-sm-12 col-md-6">
-    			<img src="http://placehold.it/300x300" alt="" />
-    		</div>
-    	</div>
-    	<div class="content-section row text-center">
-    		<div class="col-sm-12 col-md-6">
-    			<img src="http://placehold.it/300x300" alt="" />
-    		</div>
-    		<div class="col-sm-12 col-md-6">
-	    		<div class="col-sm-12 text-center">
-	    			<h3>Roe vs Wade</h3>
-	    		</div>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error a rem inventore magnam odio dolorem et accusamus cum earum nisi, iure obcaecati, reiciendis odit eligendi dolorum animi asperiores praesentium adipisci.</p>
-    			<a href="#" class="btn btn-primary">Read More</a>
-    		</div>
-    	</div>
+
+    <!-- custom field here // section1 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('itn_section1') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('itn_section1') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                        <a href="<?php echo the_sub_field('button_url'); ?>" class="btn btn-primary"><?php echo the_sub_field('button_text'); ?></a>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+        
+
+    <!-- custom field #2 here // section2 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('itn_section2') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('itn_section2') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section">
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                        <a href="<?php echo the_sub_field('button_url'); ?>" class="btn btn-primary"><?php echo the_sub_field('button_text'); ?></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+
+    <!-- another instance of the first custom field // section3 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('itn_section3') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('itn_section3') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                        <a href="<?php echo the_sub_field('button_url'); ?>" class="btn btn-primary"><?php echo the_sub_field('button_text'); ?></a>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+
     </div>
 
     <!-- jQuery -->

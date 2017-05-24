@@ -75,7 +75,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                
+                <img src="https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">           
+            </div>
+            <div class="col-sm-6">
+                Text
             </div>
         </div>
     </div>
