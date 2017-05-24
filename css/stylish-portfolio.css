@@ -313,8 +313,17 @@ video {
     color: #314b60;
 }
 
+#inTheNews {
+    background-color: #314b60;
+    color: white;
+}
 
-#in-the-news img{
+#inTheNews h2 {
+    color: #89cff0;
+}
+
+
+#in-the-news img {
     width: 100%;
 }
 

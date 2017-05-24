@@ -116,7 +116,7 @@
             <?php endwhile; ?>
         <?php endif; ?>
 
-    <!-- another instance of the first custom field // section3 -->
+    <!-- custom field #3 here // section3 -->
         <!-- check if the repeater field has rows of data -->
         <?php  if( have_rows('itn_section3') ): ?>
         <!-- loop through the rows of data -->
@@ -137,7 +137,55 @@
             <?php endwhile; ?>
         <?php endif; ?>
 
+    <!-- custom field #4 here // section4 -->
+        <!-- check if the repeater field has rows of data -->
+        <?php  if( have_rows('itn_section4') ): ?>
+        <!-- loop through the rows of data -->
+            <?php  while ( have_rows('itn_section4') ) : the_row(); ?>        
+                <!-- display a sub field value -->
+                <div class="content-section row text-center section">
+                    <div class="content-section col-sm-12 col-md-6">
+                        <div class="col-sm-12 text-center">
+                            <h3><?php echo the_sub_field('header'); ?></h3>
+                        </div>
+                        <p><?php echo the_sub_field('copy'); ?></p>
+                        <a href="<?php echo the_sub_field('button_url'); ?>" class="btn btn-primary"><?php echo the_sub_field('button_text'); ?></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="<?php echo the_sub_field('image'); ?>" alt="" />
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php endif; ?>
+
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Harris &amp; Coffey</strong></h4>
+                    <p>435 N Walker Ave #202  Oklahoma City, OK 73102</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (405)606-7444</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:inquiry@harrisandcoffey.com">inquiry@harrisandcoffey.com</a></li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="<?php  bloginfo('template_url');  ?>/#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="<?php  bloginfo('template_url');  ?>/#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="<?php  bloginfo('template_url');  ?>/#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="<?php  bloginfo('template_url');  ?>/#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
 
     <!-- jQuery -->
     <script src="<?php  bloginfo('template_url');  ?>/js/jquery.js"></script>
