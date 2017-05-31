@@ -70,8 +70,8 @@
 
     <div id="videoBackground">
         <video autoplay playsinline muted loop>
-              <source src="<?php  bloginfo('template_url'); ?>/img/droneVideo.mp4" type="video/mp4">
-              <source src="<?php  bloginfo('template_url'); ?>/img/droneVideo.webm" type="video/ogg">
+              <source src="<?php  bloginfo('template_url'); ?>/img/H_C_1_1_CLIPCHAMP.mp4" type="video/mp4">
+              <source src="<?php  bloginfo('template_url'); ?>/img/H_C_1_1_CLIPCHAMP.webm" type="video/webm">
             Your browser does not support the video tag.
         </video> 
         <div class="text-vertical-center">

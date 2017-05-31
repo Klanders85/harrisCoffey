@@ -38,7 +38,7 @@
 <?php  wp_head();  ?>
 </head>
 </head>
-<body id="practices">
+<body id="practicesPage">
 	<!-- Navigation -->
     <!-- Header -->
     <header id="top" class="itn-header">
